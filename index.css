@@ -6,6 +6,7 @@ header {
     border-inline-end-style: dotted;
     border-radius: 10px;
     line-height: 15px;
+    line-height: normal;
      
 }
 header h1 {
