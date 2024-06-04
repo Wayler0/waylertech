@@ -22,7 +22,7 @@ header p {
 }
 
 body {
-    background-image: url(\\wsl.localhost\Ubuntu\home\solo\waylertech\background.jpg);
+    background-image: url(background.jpg);
     text-align: center;
 }
 
