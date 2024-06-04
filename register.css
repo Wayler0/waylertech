@@ -1,0 +1,35 @@
+body {
+    background-image: url(login.jpg);
+}
+.form {
+
+    background:  linear-gradient(to right, yellow, blueviolet);
+    padding: 50px 20px;
+    border-style: ridge;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 0px;
+}
+#submit {
+    background-color: blueviolet;
+    border-radius: 5px;
+    border-color: aquamarine;
+    border-style: hidden;    
+}
+body form p, #submit {
+    margin-top: 10px;
+}
+#fullName, #email, #birth, #phone, #userName, #password, #confirmPassword {
+    border: none;
+    background-color: aqua;
+    border-bottom: ridge;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: bisque;
+    border-radius: 40px;
+    text-align: center;
+    background: linear-gradient(to right, orange, blueviolet);
+}
