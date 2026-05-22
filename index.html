@@ -1,30 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-5">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet">
-    <title>WaylerTech Agencies</title>
-</head>
-<body>
-<header>
-    <h1>Welcome to WaylerTech Agencies</h1>
-    <p>Where you broadcast our bussiness and earn money</p>
-    <nav>
-        <ul>
-            <li><a href="register.html"class="regEarn" >Sign Up </a></li>
-            <li><a href="login.html" class="link" >Sign In</a></li>
-            <li><a href=""></a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WaylerTech — Practical Tech, Cybersecurity, Linux, and Digital Freedom for students, creators, and curious minds."
+    />
+    <title>WaylerTech | Cyberpunk Tech Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&family=Orbitron:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="grid-overlay" aria-hidden="true"></div>
+    <div id="particles" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a href="#hero" class="brand">
+        <img
+          src="https://github.com/user-attachments/assets/4b1ce5db-7645-41c9-a84f-07666866caef"
+          alt="WaylerTech logo"
+        />
+        <span>WAYLERTECH</span>
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#flash-drives">Flash Drives</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section">
+        <div class="hero-content">
+          <p class="chip">Terminal / Lab / Security Tooling</p>
+          <h1>Practical Tech. Cybersecurity. Linux. Digital Freedom.</h1>
+          <p class="lead">
+            Built for students, hackers, creators, and curious minds. WaylerTech
+            turns ideas into secure, useful systems.
+          </p>
+          <div class="cta-row">
+            <a href="#services" class="btn btn-primary">Explore Services</a>
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#community" class="btn">Join Community</a>
+          </div>
+        </div>
+        <aside class="terminal-card" aria-label="Terminal style intro">
+          <p><span>$</span> sudo waylertech --init</p>
+          <p><span>></span> linux | cybersecurity | networking | automation</p>
+          <p><span>></span> status: <strong>online</strong></p>
+          <p><span>></span> mission: practical digital skill access</p>
+        </aside>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          WaylerTech started as a student-driven tech movement focused on
+          practical digital skills, Linux systems, cybersecurity, and accessible
+          tools for everyday users and comrades.
+        </p>
+        <p>
+          We work across cybersecurity, Linux setup and repair, bootable drives,
+          networking, privacy hardening, automation, and student accessibility.
+        </p>
+      </section>
+
+      <section id="services" class="section">
+        <h2>Services</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>�� System Installation</h3>
+            <ul>
+              <li>Windows, Linux, dual boot setup</li>
+              <li>Driver installation and optimization</li>
+              <li>System cleanup and performance tuning</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>🐧 Linux Lab</h3>
+            <ul>
+              <li>Persistent live USB creation</li>
+              <li>Kali / Ubuntu / Fedora deployments</li>
+              <li>Boot repair and portable dev environments</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>🛡️ Cybersecurity</h3>
+            <ul>
+              <li>Privacy hardening and secure browsing setup</li>
+              <li>Security awareness and OSINT basics</li>
+              <li>Beginner-safe cyber hygiene workflows</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>🌐 Networking</h3>
+            <ul>
+              <li>Router setup and troubleshooting</li>
+              <li>Campus networking support</li>
+              <li>Printer and local network sharing</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>⚡ Tech Support</h3>
+            <ul>
+              <li>Laptop cleanup and software fixes</li>
+              <li>Data backup and recovery support</li>
+              <li>Diagnostics and repair guidance</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects / Lab</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>GitHub Scripts</h3>
+            <p>Utility scripts for setup, automation, and daily workflows.</p>
+          </article>
+          <article class="card">
+            <h3>Networking Experiments</h3>
+            <p>Home-lab routing tests, diagnostics, and practical playbooks.</p>
+          </article>
+          <article class="card">
+            <h3>Linux Customization</h3>
+            <p>Portable environments, performance tweaks, and distro tooling.</p>
+          </article>
+          <article class="card">
+            <h3>CTF & Forensics Notes</h3>
+            <p>Beginner writeups and reproducible learning experiments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="flash-drives" class="section">
+        <h2>Custom Flash Drives</h2>
+        <p class="section-intro">
+          A signature WaylerTech service: practical USB toolkits built for real
+          field use.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>Bootable Installers</h3>
+            <p>Windows/Linux installation media, ready to deploy.</p>
+          </article>
+          <article class="card">
+            <h3>Rescue Toolkit USBs</h3>
+            <p>Recovery tools, diagnostics, and emergency troubleshooting.</p>
+          </article>
+          <article class="card">
+            <h3>Linux Persistence Drives</h3>
+            <p>Portable Linux systems with persistent storage and configs.</p>
+          </article>
+          <article class="card">
+            <h3>Office + Repair Preload</h3>
+            <p>Preloaded software suites and repair utilities for quick setup.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="community" class="section">
+        <h2>Community</h2>
+        <p>Built for students, hackers, creators, and curious minds.</p>
+        <div class="links">
+          <a href="#" aria-label="Telegram">Telegram</a>
+          <a href="#" aria-label="Discord">Discord</a>
+          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+          <a href="https://github.com/Wayler0" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>
+          Available for collaborations, student support, and technical work.
+        </p>
+        <ul class="contact-list">
+          <li><strong>WhatsApp:</strong> <a href="#">Message WaylerTech</a></li>
+          <li><strong>Email:</strong> <a href="mailto:hello@waylertech.dev">hello@waylertech.dev</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/Wayler0">github.com/Wayler0</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#">WaylerTech</a></li>
+          <li><strong>Location:</strong> Kenya (remote + campus support)</li>
         </ul>
-    </nav>
+      </section>
+    </main>
 
-</header>
+    <footer>
+      <p>© <span id="year"></span> WaylerTech — Hacker Workshop Meets Modern Security.</p>
+    </footer>
 
-
-
-</body>
-<footer>
-        <p>WaylerTech Agencies &trade;</p>
-        <p>&COPY; 2024</p>
-</footer>
+    <script src="/script.js"></script>
+  </body>
 </html>
