@@ -175,6 +175,22 @@ main {
   max-width: 60ch;
 }
 
+.feature-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.feature-list span {
+  padding: 0.38rem 0.65rem;
+  border: 1px solid #274a6e;
+  border-radius: 999px;
+  background: #08111ff2;
+  color: #b7dcf7;
+  font-size: 0.82rem;
+}
+
 .cta-row {
   margin-top: 1rem;
   display: flex;
@@ -242,6 +258,11 @@ main {
   padding: 0.85rem;
 }
 
+.card-emphasis {
+  border-color: #2f7fa8;
+  box-shadow: inset 0 0 0 1px #0ef0ff24;
+}
+
 .card h3 {
   margin-top: 0;
   font-size: 1rem;
@@ -261,6 +282,11 @@ main {
 
 .section-intro {
   margin-top: -0.2rem;
+}
+
+.section-footer-note {
+  margin-bottom: 0;
+  color: var(--muted);
 }
 
 .links {
