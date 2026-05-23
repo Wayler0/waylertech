@@ -28,9 +28,12 @@
         />
         <span>WAYLERTECH</span>
       </a>
+      <button id="mobile-menu-btn" class="mobile-menu" aria-label="Open navigation">⋮</button>
       <nav>
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#waylerlab">WaylerLab</a>
+        <a href="#shop">Shop</a>
         <a href="#projects">Projects</a>
         <a href="#flash-drives">Flash Drives</a>
         <a href="#community">Community</a>
@@ -56,7 +59,7 @@
         <aside class="terminal-card" aria-label="Terminal style intro">
           <p><span>$</span> sudo waylertech --init</p>
           <p><span>></span> linux | cybersecurity | networking | automation</p>
-          <p><span>></span> status: <strong>online</strong></p>
+          <p><span>></span> status: <strong style="color: green;">online</strong></p>
           <p><span>></span> mission: practical digital skill access</p>
         </aside>
       </section>
@@ -68,6 +71,16 @@
           practical digital skills, Linux systems, cybersecurity, and accessible
           tools for everyday users and comrades.
         </p>
+        <div class="feature-list" aria-label="WaylerTech focus areas">
+          <span>Cybersecurity</span>
+          <span>Linux</span>
+          <span>Repair + setup</span>
+          <span>Bootable drives</span>
+          <span>Networking</span>
+          <span>Privacy</span>
+          <span>Automation</span>
+          <span>Student accessibility</span>
+        </div>
         <p>
           We work across cybersecurity, Linux setup and repair, bootable drives,
           networking, privacy hardening, automation, and student accessibility.
@@ -78,7 +91,7 @@
         <h2>Services</h2>
         <div class="cards">
           <article class="card">
-            <h3>�� System Installation</h3>
+            <h3>System Installation</h3>
             <ul>
               <li>Windows, Linux, dual boot setup</li>
               <li>Driver installation and optimization</li>
@@ -86,7 +99,7 @@
             </ul>
           </article>
           <article class="card">
-            <h3>🐧 Linux Lab</h3>
+            <h3>Linux Lab</h3>
             <ul>
               <li>Persistent live USB creation</li>
               <li>Kali / Ubuntu / Fedora deployments</li>
@@ -94,7 +107,7 @@
             </ul>
           </article>
           <article class="card">
-            <h3>🛡️ Cybersecurity</h3>
+            <h3>Cybersecurity</h3>
             <ul>
               <li>Privacy hardening and secure browsing setup</li>
               <li>Security awareness and OSINT basics</li>
@@ -102,7 +115,7 @@
             </ul>
           </article>
           <article class="card">
-            <h3>🌐 Networking</h3>
+            <h3>Networking</h3>
             <ul>
               <li>Router setup and troubleshooting</li>
               <li>Campus networking support</li>
@@ -110,12 +123,20 @@
             </ul>
           </article>
           <article class="card">
-            <h3>⚡ Tech Support</h3>
+            <h3>Tech Support</h3>
             <ul>
               <li>Laptop cleanup and software fixes</li>
               <li>Data backup and recovery support</li>
               <li>Diagnostics and repair guidance</li>
             </ul>
+          </article>
+          <article class="card card-emphasis">
+            <h3>Custom Flash Drives</h3>
+            <p>
+              Bootable installers, rescue toolkit USBs, Linux persistence drives,
+              and office preload builds are handled as a dedicated WaylerTech
+              service.
+            </p>
           </article>
         </div>
       </section>
@@ -138,6 +159,32 @@
           <article class="card">
             <h3>CTF & Forensics Notes</h3>
             <p>Beginner writeups and reproducible learning experiments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="waylerlab" class="section">
+        <h2>WaylerLab</h2>
+        <p class="section-intro">
+          A blog and experiments area for practical learning, quick fixes, and
+          beginner-friendly cyber guidance.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>Bootable USB Guides</h3>
+            <p>How to make installers, recovery tools, and persistent drives.</p>
+          </article>
+          <article class="card">
+            <h3>Linux Tips</h3>
+            <p>Setup notes, terminal workflows, and distro customization ideas.</p>
+          </article>
+          <article class="card">
+            <h3>Security Basics</h3>
+            <p>Privacy, scam awareness, secure browsing, and OSINT starter notes.</p>
+          </article>
+          <article class="card">
+            <h3>Network Troubleshooting</h3>
+            <p>Simple playbooks for routers, printers, and shared networks.</p>
           </article>
         </div>
       </section>
@@ -168,15 +215,43 @@
         </div>
       </section>
 
+      <section id="shop" class="section">
+        <h2>Shop</h2>
+        <p class="section-intro">
+          Future-ready product ideas that can start with simple WhatsApp orders
+          before full e-commerce.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>Branded Flash Drives</h3>
+            <p>WaylerTech drives for installers, recovery, and portable tools.</p>
+          </article>
+          <article class="card">
+            <h3>Linux Starter Packs</h3>
+            <p>Practical bundles for new Linux users and student labs.</p>
+          </article>
+          <article class="card">
+            <h3>Cyber Notebook Kits</h3>
+            <p>Learning kits for notes, checklists, and project tracking.</p>
+          </article>
+          <article class="card">
+            <h3>Accessories</h3>
+            <p>Stickers, keyboard accessories, and other workshop gear.</p>
+          </article>
+        </div>
+        <p class="section-footer-note">Order via WhatsApp works well until the store is live.</p>
+      </section>
+
       <section id="community" class="section">
         <h2>Community</h2>
         <p>Built for students, hackers, creators, and curious minds.</p>
         <div class="links">
-          <a href="#" aria-label="Telegram">Telegram</a>
-          <a href="#" aria-label="Discord">Discord</a>
-          <a href="#" aria-label="WhatsApp">WhatsApp</a>
-          <a href="https://github.com/Wayler0" aria-label="GitHub">GitHub</a>
-          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="https://t.me/Anonyskull" aria-label="Telegram" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://discord.com/users/wayler0" aria-label="Discord" target="_blank" rel="noopener">Discord</a>
+          <a href="https://wa.me/message/TSVNNBQD4MHYA1" aria-label="WhatsApp" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://github.com/Wayler0" aria-label="GitHub" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/njenga-solomon" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://tryhackme.com/p/Wayler0" aria-label="TryHackMe" target="_blank" rel="noopener">TryHackMe</a>
         </div>
       </section>
 
@@ -186,10 +261,12 @@
           Available for collaborations, student support, and technical work.
         </p>
         <ul class="contact-list">
-          <li><strong>WhatsApp:</strong> <a href="#">Message WaylerTech</a></li>
+          <li><strong>Telegram:</strong> <a href="https://t.me/Anonyskull" target="_blank" rel="noopener">t.me/Anonyskull</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/message/TSVNNBQD4MHYA1" target="_blank" rel="noopener">Message WaylerTech</a></li>
           <li><strong>Email:</strong> <a href="mailto:hello@waylertech.dev">hello@waylertech.dev</a></li>
-          <li><strong>GitHub:</strong> <a href="https://github.com/Wayler0">github.com/Wayler0</a></li>
-          <li><strong>LinkedIn:</strong> <a href="#">WaylerTech</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/Wayler0" target="_blank" rel="noopener">github.com/Wayler0</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/njenga-solomon" target="_blank" rel="noopener">njenga-solomon</a></li>
+          <li><strong>TryHackMe:</strong> <a href="https://tryhackme.com/p/Wayler0" target="_blank" rel="noopener">tryhackme.com/p/Wayler0</a></li>
           <li><strong>Location:</strong> Kenya (remote + campus support)</li>
         </ul>
       </section>

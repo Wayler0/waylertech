@@ -114,6 +114,39 @@ body {
   gap: 0.8rem;
 }
 
+.mobile-menu {
+  display: none;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--muted);
+  font-size: 1.3rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 850px) {
+  .topbar nav {
+    display: none;
+    width: 100%;
+  }
+
+  .mobile-menu {
+    display: inline-flex;
+    margin-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topbar nav.open {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    background: transparent;
+    padding-left: 0;
+  }
+}
+
 .topbar nav a {
   color: var(--muted);
   text-decoration: none;
@@ -173,6 +206,22 @@ main {
 .lead {
   color: var(--muted);
   max-width: 60ch;
+}
+
+.feature-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.feature-list span {
+  padding: 0.38rem 0.65rem;
+  border: 1px solid #274a6e;
+  border-radius: 999px;
+  background: #08111ff2;
+  color: #b7dcf7;
+  font-size: 0.82rem;
 }
 
 .cta-row {
@@ -242,6 +291,11 @@ main {
   padding: 0.85rem;
 }
 
+.card-emphasis {
+  border-color: #2f7fa8;
+  box-shadow: inset 0 0 0 1px #0ef0ff24;
+}
+
 .card h3 {
   margin-top: 0;
   font-size: 1rem;
@@ -261,6 +315,11 @@ main {
 
 .section-intro {
   margin-top: -0.2rem;
+}
+
+.section-footer-note {
+  margin-bottom: 0;
+  color: var(--muted);
 }
 
 .links {
