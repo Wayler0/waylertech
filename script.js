@@ -13,3 +13,21 @@ for (let i = 0; i < count; i += 1) {
 }
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+// Mobile nav toggle (three-dot button)
+const mobileBtn = document.getElementById("mobile-menu-btn");
+const topNav = document.querySelector(".topbar nav");
+if (mobileBtn && topNav) {
+  mobileBtn.addEventListener("click", () => {
+    topNav.classList.toggle("open");
+    mobileBtn.setAttribute(
+      "aria-expanded",
+      topNav.classList.contains("open") ? "true" : "false"
+    );
+  });
+
+  // Close nav when a link is clicked (mobile)
+  topNav.querySelectorAll("a").forEach((a) =>
+    a.addEventListener("click", () => topNav.classList.remove("open"))
+  );
+}

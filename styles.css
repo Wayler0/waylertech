@@ -114,6 +114,39 @@ body {
   gap: 0.8rem;
 }
 
+.mobile-menu {
+  display: none;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--muted);
+  font-size: 1.3rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 850px) {
+  .topbar nav {
+    display: none;
+    width: 100%;
+  }
+
+  .mobile-menu {
+    display: inline-flex;
+    margin-left: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topbar nav.open {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    background: transparent;
+    padding-left: 0;
+  }
+}
+
 .topbar nav a {
   color: var(--muted);
   text-decoration: none;
