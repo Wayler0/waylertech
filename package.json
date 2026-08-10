@@ -1,0 +1,15 @@
+{
+  "name": "waylertech",
+  "version": "1.0.0",
+  "description": "WaylerTech — Practical Tech, Cybersecurity, Linux, and Digital Freedom",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": ["tech", "cybersecurity", "linux"],
+  "author": "WaylerTech",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
